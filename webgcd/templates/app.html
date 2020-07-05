@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>GCD</title>
+    <style>  
+	.form1 {
+		width: 400px;
+		margin: 0 auto;
+		background: white;
+		border: 1px solid green;
+		border-radius: 10px;
+		text-align: center;
+	  }
+	.but1 {
+		background: lightgreen;
+		border-radius: 10px;
+		padding:  10px 20px;
+	  }
+	.but1:hover {
+		background: Lavender;
+	  }
+    </style>
+  </head>
+  
+  <body>
+		
+		<form action="/send" method="POST" class="form1">
+			<h1>GCD App</h1>	  
+			<p>	First Number <br>
+				<input type="text" name="num1" required/>
+			</p>
+			
+			<p>	Second Number  <br>
+				<input type="text" name="num2" required/>
+			</p>
+
+			<input type="submit" value="Calculate" class="but1" />
+			
+			<p>{{ gcd }}</p>
+		</form>
+	  
+  </body>
+</html>
