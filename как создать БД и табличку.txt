@@ -1,0 +1,7 @@
+Сначала нам потребуется установить MySQL Command Line Client.
+Чтобы создать базу данных: CREATE DATABASE db_name;
+Можем увидеть db_name в списке баз данных: SHOW DATABASES;
+Переключимся на нашу БД: USE db_name;
+Создадим таблицу: CREATE TABLE colours (colour_id VARCHAR(128), colour VARCHAR(128));
+Удостоверимся, что таблица появилась: SHOW TABLES;
+Теперь добавим в пустую таблицу одну строчку: INSERT INTO colours VALUES('0', 'white');

@@ -1,3 +1,9 @@
+"""
+input: 0; CREATE TABLE devs (name VARCHAR(128)); -- 
+ниже вместо 11012001 должен стоять Ваш пароль для входа в клиент MySQL
+"""
+
+
 import MySQLdb
 id = input("Enter colour id...")
 sql = 'SELECT colour FROM colours WHERE colour_id= '+ id +''
